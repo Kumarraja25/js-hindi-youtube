@@ -32,3 +32,36 @@ console.log(Boolean(fullnam))
 //"" => false
 //"Raja" => true
 //0 => false, 1 => true
+
+
+// ***************** Operations ********************
+// console.log(2+3)
+// console.log(2-3)
+// console.log(2*3)
+// console.log(2/3)
+// console.log(2%3)
+// console.log(2**3)
+
+let value = 25
+let negValue= -value
+console.log(negValue)
+//gives -25
+
+let increment = ++value
+let decrement = value++
+console.log(increment)
+console.log(decrement)
+console.log(value)
+
+let str1="Raja"
+let str2="Kumar Bisi"
+console.log(str1+str2)
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+"2")
+// 12
+console.log("1"+2+2)
+// 122
+console.log(1+2+"2")
+// 32
