@@ -34,3 +34,27 @@ console.log(typeof program)
 console.log(typeof choice)
 console.log(typeof opinion)
 
+//********************************************************************************************************
+
+//Memory mangement
+// Stack(primitive/copy/call by value) 
+// Heap(non-primitive/reference)
+
+let oneInput="I'm the luckiest"
+let twoInput = oneInput
+console.log(oneInput)
+console.log(twoInput)
+// difference because of call by value
+
+let myObj1={
+    user:"name",
+    email:"rajkdu@gmail.com",
+    id:59254,
+}
+let myObj2 = myObj1
+
+myObj2.user="Raja"
+console.log(myObj1.user)
+console.log(myObj2.user)
+// difference because of call by reference
+
