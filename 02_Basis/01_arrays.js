@@ -13,10 +13,13 @@ const myArr2=new Array(1,3,5,7,9)
 // myArr.pop();
 
 // myArr.unshift(9);
+// insert 9 at index 0
 // myArr.shift();
+// pop from begining
 
 // console.log(myArr.includes(9)); //false
-// console.log(myArr.indexOf(9));
+// console.log(myArr.indexOf(9)); //-1 because not present
+
 
 // const newArr=myArr.join();
 // console.log(myArr);
@@ -30,5 +33,6 @@ const myn1=myArr.slice(1,3);
 console.log(myn1);
 console.log("B =",myArr);
 const myn2=myArr.splice(1,3);
+//maipulates the positional array
 console.log(myn2);
 console.log("C =",myArr);
