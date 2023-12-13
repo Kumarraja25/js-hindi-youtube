@@ -43,9 +43,31 @@ const list=[
 ]
 // console.log(list[1].id); // 1558
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
 //property check
-console.log(user.hasOwnProperty("islogged"));//false isloggedin
+//console.log(user.hasOwnProperty("islogged"));//false isloggedin
+
+// object destructure..
+const course={
+    courseName:"JS",
+    price:2000,
+    courseInstructor:"Hitesh"
+}
+//course.courseInstructor 
+
+const {courseInstructor} = course;
+//console.log(courseInstructor)//hitesh
+const {courseInstructor:mentor} = course;
+console.log(mentor);
+
+
+
+//json-javascript object notation
+// {
+//     "courseName":"JS",
+//     "price":2000,
+//     "courseInstructor":"Hitesh"
+// }
