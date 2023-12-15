@@ -27,3 +27,15 @@ const hey1=function(){
     console.log(this.username)
 }
 hey1()
+
+//arrows function ... () => {}
+
+// const addTwo=(num1,num2)=>{
+//     return num1+num2
+// }
+
+// const addTwo=(num1,num2)=> num1+num2   //implicit form
+//const addTwo=(num1,num2)=> {username:"Raja"}  //undefined
+const addTwo=(num1,num2)=> ({username:"Raja"})
+console.log(addTwo(5,14)) // 19
+ 
