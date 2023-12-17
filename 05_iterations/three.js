@@ -19,6 +19,7 @@ state.set('OD','Odisha')
 state.set('GJ','Gujurat')
 state.set('PJ','Punjab')
 state.set('KL','Kerela')
+state.set('KL','Kerela')
 
 //console.log(state)
 
