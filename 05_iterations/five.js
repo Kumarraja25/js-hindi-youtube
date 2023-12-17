@@ -38,22 +38,3 @@ const myCoding=[
 myCoding.forEach((item)=>{
     console.log(item.langName)
 })
-
-//filter ....
-const myNumbs=[1,2,3,4,5,6,7]
-
-// const newNumbs=myNumbs.filter((item)=> item > 4)
-// console.log(newNumbs)
-
-const newNumbs=myNumbs.filter((item)=> {
-    return item > 4
-})
-console.log(newNumbs)
-
-const newNumbs2=[]
-myNumbs.forEach((item)=>{
-    if(item>4){
-        newNumbs2.push(item)
-    }
-})
-console.log(newNumbs2)
