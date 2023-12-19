@@ -57,3 +57,17 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+```
+# Solution code 
+## project 3
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  const date = new Date();
+  // console.log(date.toLocaleTimeString())
+  clock.innerHTML=date.toLocaleTimeString();
+}, 1000);
+
+```
