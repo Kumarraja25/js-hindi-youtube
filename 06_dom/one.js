@@ -52,3 +52,6 @@ const headings=document.querySelectorAll('h1')
 //undefined
 headings[0].style.color="red"
 //'red'
+
+const newList=document.querySelectorAll("li")
+newList.forEach((l)=>{l.style.backgroundColor="green"})
